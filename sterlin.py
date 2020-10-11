@@ -1,7 +1,6 @@
-"""
-Bu program bankaların güncel İngiliz Sterlini alış ve satış fiyatlarını grafiğe döker.
-This program charts Turkish banks' current GBP/TRY buying and selling prices.
-"""
+#Bu program bankaların güncel İngiliz Sterlini alış ve satış fiyatlarını grafiğe döker.
+#This program charts Turkish banks' current GBP/TRY buying and selling prices.
+
 import requests
 from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
